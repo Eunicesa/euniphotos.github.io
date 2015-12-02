@@ -1,0 +1,68 @@
+body {
+	background-image: url("http://41.media.tumblr.com/547d77f7f5ed57d33ba76df63d748274/tumblr_na314d9EBJ1spq80yo2_500.png");
+	background-repeat: repeat;
+}
+
+.about-me {
+	background-color: #FFE6E6;
+	border-color: #FF6666; 
+	border-padding: 2px;
+	text-align: center;
+	padding: 100px 30px 30px 30px;
+	border-radius: 20px;
+	margin: 50px ;
+	border: 5px dashed #FF9999;
+	font-family: cursive;
+}
+.about-me-heading {
+	color: #FF9933;
+}
+p {
+	color: #CC7A52;
+}
+.topbar {
+	background-color: #FFE6E6;
+	border-color: #FF6666; 
+	border-padding: 2px;
+	text-align: center;
+	width: 400px;
+	border-radius: 20px;
+	position: relative;
+	top: 100px;
+	border: 3px dashed #FF9999;
+}
+a:hover {
+	color: #fff;
+}
+a {
+	color: #99715E;
+}
+.sub_title {
+	background-color: #FF9999;
+	border-radius: 20px;
+	width: 300px;
+	margin: auto;
+	color: #fff;
+}
+.likes {
+	color: #FFADAD;
+	text-align: center;
+	background-color: #FFE6E6;
+	padding: 10px 10px 10px 10px;
+	border-radius:20px;
+	width: 200px;
+	background-position: center;
+	margin: auto;
+	position: relative;
+	bottom: 5px;
+}
+.tumblr {
+	position: relative;
+	bottom: 150px;
+	left: 450px;
+}
+.crunchy {
+	position: relative;
+	bottom: 250px;
+	left: 850px;
+}

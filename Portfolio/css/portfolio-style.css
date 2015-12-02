@@ -1,0 +1,341 @@
+body {
+	/*background-image: url("http://i.imgur.com/i4xzMEE.jpg"); */
+background-repeat: repeat;
+background-color: #FFF;
+margin: 0;
+}
+
+.Ccontainer {
+	width: 100%;
+	margin: auto;
+
+}
+
+.navigation-portfolio {
+background-color: #6b6b6b;
+height: 50px;
+
+
+
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.titlepage {
+	background-color: #6b6b6b;
+	height: 100%;
+}
+
+.titlehead {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 37px;
+}
+
+.navigation-portfolio li {
+display: inline-block;
+padding: 10px;
+
+}
+
+.navspace {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 0;
+
+}
+
+.navspace a {
+	text-decoration: none;
+	color: #fff;
+	transition: color 1s;
+
+}
+
+.navspace a:hover {
+	color: #000;
+}
+
+.navspace ul {
+margin: 0 auto;
+
+}
+
+
+
+}
+.headimg {
+background-color: #fff;
+width: 100%;
+ 
+}
+.mainimg {
+width: 100%;
+padding: 0%;
+margin: auto;
+max-width: 743px;
+display: block;
+}
+
+
+.indexcont {
+background-color: #6b6b6b;
+height: 100%;
+top: 20px;
+padding-top: 3%;
+
+}
+
+.galleryselect {
+list-style-type: none;
+margin: 0 auto; 
+padding: 0;
+}
+
+.gallerycontent {
+width: 60%;
+margin-left: 18%;
+margin-top: 7%;
+margin-bottom: 18%;
+color: white;
+display: block;
+}
+
+.gtitle {
+text-align: center;
+color: #d3d3d3;
+font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+text-decoration: underline;
+}
+
+.squareimg {
+width: 100%;
+border: 2px solid white;
+}
+
+.pagetitle {
+	text-align: center;
+	color: #d3d3d3;
+	font-size: 29px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+
+.gallery-title {
+	text-align: center;
+	color: #d3d3d3;
+	font-size: 29px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	padding: 5%;
+	border-style: double;
+	border-width: 5px;
+	margin: 10%;
+}
+
+.aboutme {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #bbbbbb;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: justify;
+	word-spacing: 2%;
+	letter-spacing: 3px;
+	line-height: 20px;
+}
+
+.information {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    list-style-type: none;
+    line-height: 35px;
+    padding-left: 30%;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+.sidebarbold {
+    color: #fff;
+}
+
+.socialmedia {
+    list-style-type: none;
+    display: inline;
+    padding-top: 30px;
+    padding-left: 34%;
+}
+
+.sidebardivider {
+    margin-top: 33px;
+}
+
+.icons {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 12px 30px 0 0;
+}
+
+.contactpad {
+	padding-left: 25%;
+	padding-right: 25%;
+	margin: auto;
+}
+
+.picture-list {
+    list-style-type: none;
+    margin: auto;
+    padding-left: 6%;
+    text-align: center;
+}
+
+.photos {
+	width: 60%;
+	margin-left: 18%;
+	margin-top: 7%;
+	margin-bottom: 18%;
+	color: white;
+	display: block;
+}
+
+.images {
+	width: 900px;
+}
+
+
+@media screen and (min-width: 480px) {
+
+
+
+	.aboutme {
+		word-spacing: 1px;
+	}
+
+
+.gallery-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    margin: 10%;
+    font-size: 30px;
+}
+
+.picture-list {
+
+    text-align: center;
+    padding-right: 26%;
+}
+
+.images {
+	width: 160%;
+}
+
+
+
+}
+
+@media screen and (min-width: 299px) {
+
+
+
+.aboutme {
+		word-spacing: 1px;
+	}
+
+	.titlehead {
+	font-size: 17px;
+	}
+
+.gallery-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    margin: 10%;
+    font-size: 15px;
+}
+
+.picture-list {
+
+    text-align: center;
+    padding-right: 27%;
+}
+
+.images {
+	width: 160%;
+}
+
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+	
+	.galleryselect {
+		width: 984px;
+	}	
+		.gallerycontent {
+		width: 248px;
+		height: auto;
+		margin-left: 5%;
+		float: left;
+	}
+
+	.titlehead {
+	font-size: 25px;
+	}
+
+}
+
+
+
+@media (min-width: 768px) {
+
+
+	.galleryselect{
+		width: 886px;
+	}	
+
+.gallery-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    margin: 10%;
+    font-size: 40px;
+}
+
+.picture-list {
+
+    text-align: center;
+    padding-right: 26%;
+}
+
+.images {
+	width: 160%;
+}
+
+
+	.navspace {
+		font-size: 20px;
+
+	}
+
+	.gallerycontent {
+		width: 253px;
+		height: auto;
+		float: left;
+		margin: 20px;
+	}
+
+		.gtitle {
+		font-size: 20px;}
+}
